@@ -71,7 +71,7 @@ async function sortLastTenDays() {
     });
 
 // Takes the top 500 from the data   
-    const top500Articles = articlesArray.slice(0, 500);
+    const top500Articles = articlesArray.slice(3, 7);
     return top500Articles;
   } catch (error) {
     console.error("Error fetching Wikipedia data:", error);
